@@ -21,7 +21,7 @@
 
     this.clouds = _.difference(this.clouds, toDelete);
 
-    if (Math.random() < 0)
+    if (Math.random() < 1)
       this.addCloud();
   };
 
